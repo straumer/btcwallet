@@ -11,7 +11,7 @@ import (
 	"time"
 
 	"github.com/btcsuite/btcd/chaincfg"
-	_ "github.com/btcsuite/btcwallet/walletdb/bdb"
+	_ "github.com/straumer/btcwallet/walletdb/bdb"
 )
 
 // TestCreateWatchingOnly checks that we can construct a watching-only

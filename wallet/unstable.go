@@ -7,8 +7,8 @@ package wallet
 
 import (
 	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcwallet/walletdb"
-	"github.com/btcsuite/btcwallet/wtxmgr"
+	"github.com/straumer/btcwallet/walletdb"
+	"github.com/straumer/btcwallet/wtxmgr"
 )
 
 type unstableAPI struct {

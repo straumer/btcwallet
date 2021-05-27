@@ -8,8 +8,8 @@ import (
 
 	"github.com/btcsuite/btcd/chaincfg"
 	"github.com/btcsuite/btcutil/hdkeychain"
-	"github.com/btcsuite/btcwallet/waddrmgr"
-	"github.com/btcsuite/btcwallet/walletdb"
+	"github.com/straumer/btcwallet/waddrmgr"
+	"github.com/straumer/btcwallet/walletdb"
 )
 
 // defaultDBTimeout specifies the timeout value when opening the wallet

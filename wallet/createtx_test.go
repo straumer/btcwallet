@@ -14,11 +14,11 @@ import (
 	"github.com/btcsuite/btcd/txscript"
 	"github.com/btcsuite/btcd/wire"
 	"github.com/btcsuite/btcutil"
-	"github.com/btcsuite/btcwallet/waddrmgr"
-	"github.com/btcsuite/btcwallet/wallet/txauthor"
-	"github.com/btcsuite/btcwallet/walletdb"
-	_ "github.com/btcsuite/btcwallet/walletdb/bdb"
-	"github.com/btcsuite/btcwallet/wtxmgr"
+	"github.com/straumer/btcwallet/waddrmgr"
+	"github.com/straumer/btcwallet/wallet/txauthor"
+	"github.com/straumer/btcwallet/walletdb"
+	_ "github.com/straumer/btcwallet/walletdb/bdb"
+	"github.com/straumer/btcwallet/wtxmgr"
 	"github.com/stretchr/testify/require"
 )
 

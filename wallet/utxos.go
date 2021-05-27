@@ -13,8 +13,8 @@ import (
 	"github.com/btcsuite/btcd/wire"
 	"github.com/btcsuite/btcutil/hdkeychain"
 	"github.com/btcsuite/btcutil/psbt"
-	"github.com/btcsuite/btcwallet/waddrmgr"
-	"github.com/btcsuite/btcwallet/walletdb"
+	"github.com/straumer/btcwallet/waddrmgr"
+	"github.com/straumer/btcwallet/walletdb"
 )
 
 var (
