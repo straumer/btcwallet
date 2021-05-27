@@ -18,11 +18,11 @@ import (
 	"github.com/btcsuite/btcd/txscript"
 	"github.com/btcsuite/btcd/wire"
 	"github.com/btcsuite/btcutil"
-	"github.com/btcsuite/btcwallet/internal/cfgutil"
-	"github.com/btcsuite/btcwallet/netparams"
-	"github.com/btcsuite/btcwallet/wallet/txauthor"
-	"github.com/btcsuite/btcwallet/wallet/txrules"
-	"github.com/btcsuite/btcwallet/wallet/txsizes"
+	"github.com/straumer/btcwallet/internal/cfgutil"
+	"github.com/straumer/btcwallet/netparams"
+	"github.com/straumer/btcwallet/wallet/txauthor"
+	"github.com/straumer/btcwallet/wallet/txrules"
+	"github.com/straumer/btcwallet/wallet/txsizes"
 	"github.com/jessevdk/go-flags"
 )
 

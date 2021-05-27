@@ -14,7 +14,7 @@ import (
 	"time"
 
 	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcwallet/walletdb"
+	"github.com/straumer/btcwallet/walletdb"
 )
 
 const (

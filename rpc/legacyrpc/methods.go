@@ -23,11 +23,11 @@ import (
 	"github.com/btcsuite/btcd/txscript"
 	"github.com/btcsuite/btcd/wire"
 	"github.com/btcsuite/btcutil"
-	"github.com/btcsuite/btcwallet/chain"
-	"github.com/btcsuite/btcwallet/waddrmgr"
-	"github.com/btcsuite/btcwallet/wallet"
-	"github.com/btcsuite/btcwallet/wallet/txrules"
-	"github.com/btcsuite/btcwallet/wtxmgr"
+	"github.com/straumer/btcwallet/chain"
+	"github.com/straumer/btcwallet/waddrmgr"
+	"github.com/straumer/btcwallet/wallet"
+	"github.com/straumer/btcwallet/wallet/txrules"
+	"github.com/straumer/btcwallet/wtxmgr"
 )
 
 const (

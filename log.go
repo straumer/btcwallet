@@ -12,11 +12,11 @@ import (
 
 	"github.com/btcsuite/btcd/rpcclient"
 	"github.com/btcsuite/btclog"
-	"github.com/btcsuite/btcwallet/chain"
-	"github.com/btcsuite/btcwallet/rpc/legacyrpc"
-	"github.com/btcsuite/btcwallet/rpc/rpcserver"
-	"github.com/btcsuite/btcwallet/wallet"
-	"github.com/btcsuite/btcwallet/wtxmgr"
+	"github.com/straumer/btcwallet/chain"
+	"github.com/straumer/btcwallet/rpc/legacyrpc"
+	"github.com/straumer/btcwallet/rpc/rpcserver"
+	"github.com/straumer/btcwallet/wallet"
+	"github.com/straumer/btcwallet/wtxmgr"
 	"github.com/jrick/logrotate/rotator"
 	"github.com/lightninglabs/neutrino"
 )

@@ -14,9 +14,9 @@ import (
 	"github.com/btcsuite/btcd/chaincfg"
 	"github.com/btcsuite/btcutil"
 	"github.com/btcsuite/btcutil/hdkeychain"
-	"github.com/btcsuite/btcwallet/internal/zero"
-	"github.com/btcsuite/btcwallet/snacl"
-	"github.com/btcsuite/btcwallet/walletdb"
+	"github.com/straumer/btcwallet/internal/zero"
+	"github.com/straumer/btcwallet/snacl"
+	"github.com/straumer/btcwallet/walletdb"
 )
 
 const (

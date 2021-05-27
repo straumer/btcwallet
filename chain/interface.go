@@ -6,8 +6,8 @@ import (
 	"github.com/btcsuite/btcd/chaincfg/chainhash"
 	"github.com/btcsuite/btcd/wire"
 	"github.com/btcsuite/btcutil"
-	"github.com/btcsuite/btcwallet/waddrmgr"
-	"github.com/btcsuite/btcwallet/wtxmgr"
+	"github.com/straumer/btcwallet/waddrmgr"
+	"github.com/straumer/btcwallet/wtxmgr"
 )
 
 // isCurrentDelta is the delta duration we'll use from the present time to

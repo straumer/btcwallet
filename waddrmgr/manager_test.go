@@ -18,8 +18,8 @@ import (
 	"github.com/btcsuite/btcd/chaincfg/chainhash"
 	"github.com/btcsuite/btcutil"
 	"github.com/btcsuite/btcutil/hdkeychain"
-	"github.com/btcsuite/btcwallet/snacl"
-	"github.com/btcsuite/btcwallet/walletdb"
+	"github.com/straumer/btcwallet/snacl"
+	"github.com/straumer/btcwallet/walletdb"
 	"github.com/davecgh/go-spew/spew"
 )
 

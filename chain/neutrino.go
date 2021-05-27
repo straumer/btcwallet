@@ -14,8 +14,8 @@ import (
 	"github.com/btcsuite/btcutil"
 	"github.com/btcsuite/btcutil/gcs"
 	"github.com/btcsuite/btcutil/gcs/builder"
-	"github.com/btcsuite/btcwallet/waddrmgr"
-	"github.com/btcsuite/btcwallet/wtxmgr"
+	"github.com/straumer/btcwallet/waddrmgr"
+	"github.com/straumer/btcwallet/wtxmgr"
 	"github.com/lightninglabs/neutrino"
 	"github.com/lightninglabs/neutrino/headerfs"
 )

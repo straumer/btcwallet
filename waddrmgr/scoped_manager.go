@@ -11,9 +11,9 @@ import (
 	"github.com/btcsuite/btcd/wire"
 	"github.com/btcsuite/btcutil"
 	"github.com/btcsuite/btcutil/hdkeychain"
-	"github.com/btcsuite/btcwallet/internal/zero"
-	"github.com/btcsuite/btcwallet/netparams"
-	"github.com/btcsuite/btcwallet/walletdb"
+	"github.com/straumer/btcwallet/internal/zero"
+	"github.com/straumer/btcwallet/netparams"
+	"github.com/straumer/btcwallet/walletdb"
 )
 
 // HDVersion represents the different supported schemes of hierarchical

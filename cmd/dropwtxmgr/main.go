@@ -12,9 +12,9 @@ import (
 	"time"
 
 	"github.com/btcsuite/btcutil"
-	"github.com/btcsuite/btcwallet/wallet"
-	"github.com/btcsuite/btcwallet/walletdb"
-	_ "github.com/btcsuite/btcwallet/walletdb/bdb"
+	"github.com/straumer/btcwallet/wallet"
+	"github.com/straumer/btcwallet/walletdb"
+	_ "github.com/straumer/btcwallet/walletdb/bdb"
 	"github.com/jessevdk/go-flags"
 )
 

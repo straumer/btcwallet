@@ -5,11 +5,11 @@ require (
 	github.com/btcsuite/btclog v0.0.0-20170628155309-84c8d2346e9f
 	github.com/btcsuite/btcutil v1.0.3-0.20201208143702-a53e38424cce
 	github.com/btcsuite/btcutil/psbt v1.0.3-0.20201208143702-a53e38424cce
-	github.com/btcsuite/btcwallet/wallet/txauthor v1.0.0
-	github.com/btcsuite/btcwallet/wallet/txrules v1.0.0
-	github.com/btcsuite/btcwallet/wallet/txsizes v1.0.0
-	github.com/btcsuite/btcwallet/walletdb v1.3.5
-	github.com/btcsuite/btcwallet/wtxmgr v1.3.0
+	github.com/straumer/btcwallet/wallet/txauthor v1.0.0
+	github.com/straumer/btcwallet/wallet/txrules v1.0.0
+	github.com/straumer/btcwallet/wallet/txsizes v1.0.0
+	github.com/straumer/btcwallet/walletdb v1.3.5
+	github.com/straumer/btcwallet/wtxmgr v1.3.0
 	github.com/btcsuite/websocket v0.0.0-20150119174127-31079b680792
 	github.com/davecgh/go-spew v1.1.1
 	github.com/golang/protobuf v1.4.2
@@ -26,15 +26,15 @@ require (
 	google.golang.org/grpc v1.18.0
 )
 
-replace github.com/btcsuite/btcwallet/walletdb => ./walletdb
+replace github.com/straumer/btcwallet/walletdb => ./walletdb
 
-replace github.com/btcsuite/btcwallet/wtxmgr => ./wtxmgr
+replace github.com/straumer/btcwallet/wtxmgr => ./wtxmgr
 
-replace github.com/btcsuite/btcwallet/wallet/txauthor => ./wallet/txauthor
+replace github.com/straumer/btcwallet/wallet/txauthor => ./wallet/txauthor
 
-replace github.com/btcsuite/btcwallet/wallet/txrules => ./wallet/txrules
+replace github.com/straumer/btcwallet/wallet/txrules => ./wallet/txrules
 
-replace github.com/btcsuite/btcwallet/wallet/txsizes => ./wallet/txsizes
+replace github.com/straumer/btcwallet/wallet/txsizes => ./wallet/txsizes
 
 // The old version of ginko that's used in btcd imports an ancient version of
 // gopkg.in/fsnotify.v1 that isn't go mod compatible. We fix that import error
