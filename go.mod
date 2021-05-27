@@ -1,4 +1,4 @@
-module github.com/btcsuite/btcwallet
+module github.com/straumer/btcwallet
 
 require (
 	github.com/btcsuite/btcd v0.21.0-beta.0.20210426180113-7eba688b65e5
